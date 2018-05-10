@@ -7,10 +7,10 @@ figure
 
 index = find(t > 100, 1);
 
-ternquiver(@(t, x) catastrophe(200, x), 30,'majors',0)
-hold on
+%ternquiver(@(t, x) catastrophe(200, x), 30,'majors',0)
 %ternplot(x(end,1),x(end,2),x(end,3),'.k','MarkerSize',15)
-ternplot(x(1:index,1),x(1:index,2),x(1:index,3),'k')
+ternplot(x(1:index,1),x(1:index,2),x(1:index,3),'majors', 0, 'k')
+hold on
 ternplot(x(index:end,1), x(index:end, 2), x(index:end, 3), 'b')
 vertexlabel('Blue','Yellow','Orange', 0.03, true, 'FontSize', 22)
 hold off
