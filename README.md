@@ -18,3 +18,8 @@ Again, you can produce all the graphs by changing variables and saving.
 
 ![cat1.png](https://raw.githubusercontent.com/josephmckinsey/utaevolution/master/cat1.png)
 ![cat2.png](https://raw.githubusercontent.com/josephmckinsey/utaevolution/master/cat2.png)
+
+## Video
+
+A composition of the bifurctions can be found at:
+https://vimeo.com/269033544
