@@ -9,4 +9,4 @@
 `catastrophegraph.m` and `catastrophe.m` which produce the pictures.
 
 ![cat1.png](https://raw.githubusercontent.com/josephmckinsey/utaevolution/master/cat1.png)
-![cat2.png](https://raw.githubusercontent.com/josephmckinsey/utaevolution/master/cat1.png)
+![cat2.png](https://raw.githubusercontent.com/josephmckinsey/utaevolution/master/cat2.png)
