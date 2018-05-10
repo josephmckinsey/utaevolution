@@ -1,22 +1,21 @@
 p1 = 1;
-p2 = -1;
-p3 = -1;
+p2 = -0.8;
+p3 = 0;
 p4 = 1;
-p5 = 1;
-p6 = -1;
+p5 = 3.5;
+p6 = -0.6;
 
 U = [ 0  p1  p2;
      p3   0  p4;
      p5  p6   0];
 
-x0 = [.2; .2; .6];
+x0 = [1/3; 1/3; 1/3];
 
 tspan = [0, 200];
 
 n = 300;
 
-pval = -1.5:.01:1.5;
-n = length(pval);
+pval = linspace(-20,20,n);
 equil = zeros(n,3);
 
 figure
@@ -58,9 +57,6 @@ for j=1:n
     hold off
     
     pause(0.01);
-    if p3==-1
-        pause(1);
-    end
 end
 
 figure
